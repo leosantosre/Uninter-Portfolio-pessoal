@@ -13,8 +13,7 @@ main{
     max-width: 600px;
 }
 
-.main-info p{
-    font-size: 24px;
+.main-info{
     color: #acadbc;
     margin: 20px 40px 20px 0px;
 }
@@ -26,11 +25,21 @@ img{
     border-radius:50%;
   }
 
-  h1 span{
-    color: #473bf0;
-  }
+p span{
+  font-size: 24px;
+  font-weight:600;
+}
 
-  @media all and (max-width: 1150px) {
+p{
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+h1 span{
+    color: #473bf0;
+}
+
+@media all and (max-width: 1150px) {
 	h1, p{
         text-align: center;
 	}

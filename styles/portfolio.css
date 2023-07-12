@@ -1,0 +1,30 @@
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 200px;
+  max-width: 1380px;
+}
+
+.main-info {
+  width: 100%;
+  max-width: 600px;
+}
+
+.main-info {
+  color: #acadbc;
+  margin: 20px 40px 20px 0px;
+}
+
+@media all and (max-width: 1150px) {
+  main {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    align-content: center;
+    margin-top: 420px;
+    margin-bottom: 120px;
+    padding: 0;
+  }
+}
