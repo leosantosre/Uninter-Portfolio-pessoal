@@ -1,29 +1,20 @@
-main {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  padding: 200px;
-  max-width: 1380px;
-}
-
+/* Definindo as propriedades do elemento principal */
 main {
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 130px;
-  max-width: 1380px;
+  padding: 8.125rem;
+  max-width: 86.25rem;
 }
 
-.sobre-container{
+.sobre-container {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
 
-.sobre-container div{
+.sobre-container div {
   display: flex;
   flex-direction: column;
   padding-bottom: 0.25rem;
@@ -36,39 +27,40 @@ main {
   margin: 20px 40px 5px 0px;
 }
 
-dt{
-  color:#6665DD;
+dt {
+  color: #6665dd;
   font-weight: bold;
   font-size: large;
-  padding-bottom: 12px;
+  padding-bottom: 0.75rem;
   border-bottom: 1px solid;
 }
 
-dt span{
+dt span {
   color: #33415c;
   font-weight: bold;
   font-size: small;
 }
 
-dd{
-  color:#33415c;
+dd {
+  color: #33415c;
   padding-top: 1rem;
   padding-bottom: 1.25rem;
 }
 
-dd span{
+dd span {
   color: #33415c;
   font-weight: bold;
-  font-size:medium;
+  font-size: medium;
 }
 
+/* Ajustes para responsividade dos elementos */
 @media all and (max-width: 1150px) {
   main {
     -webkit-flex-flow: column wrap;
     flex-flow: column wrap;
     align-content: center;
-    margin-top: 420px;
-    margin-bottom: 120px;
+    margin-top: 26.25rem;
+    margin-bottom: 7.5rem;
     padding: 0;
   }
 }

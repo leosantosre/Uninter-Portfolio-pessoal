@@ -3,6 +3,7 @@ html {
   overflow-y: scroll;
 }
 
+/* Definindo as propriedades do elemento body */
 body {
   display: flex;
   justify-content: center;
@@ -23,6 +24,6 @@ body {
   bottom: 0;
   width: 100%;
   background-color: #473bf0;
-  color: #000500;
+  color: #fdfdfd;
   text-align: center;
 }

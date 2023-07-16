@@ -6,6 +6,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="styles/header.css" />
+    <!-- Puxando o css da página -->
     <link rel="stylesheet" href="styles/contato.css" />
     <link
       rel="stylesheet"
@@ -13,6 +14,7 @@
     />
   </head>
   <body class="body-container">
+    <!-- Estrutura do header para o menu de navegação -->
     <header class="container header">
       <a class="logo" href="/">Leonardo Santos</a>
       <nav class="header-nav container">
@@ -22,8 +24,11 @@
         <a class="nav-link" href="/contato.html">Contato</a>
       </nav>
     </header>
+    <!-- Conteúdo principal da página na tag main -->
     <main>
-      <form class="form" nome="contato" netlify>
+      <!-- formulário de contato com integração do netlify para receber as mensagens -->
+      <!-- estrutura com placeholders e campos obrigatórios -->
+      <form class="form" name="contato" netlify>
         <h1>Envie uma mensagem!</h1>
         <label for="name">Nome</label>
         <input type="text" name="name" placeholder="Digite seu nome" />
@@ -49,7 +54,7 @@
       </form>
     </main>
     <footer class="footer-container">
-      <p>Portifólio Uninter</p>
+      <p>Portfólio Uninter</p>
     </footer>
   </body>
 </html>

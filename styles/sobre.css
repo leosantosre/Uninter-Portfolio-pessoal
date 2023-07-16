@@ -1,18 +1,20 @@
+/* Definindo as propriedades do elemento principal */
 main {
   flex: 1;
   display: flex;
   align-items: center;
   width: 100%;
-  padding: 130px;
-  max-width: 1380px;
+  padding: 8.125rem;
+  max-width: 86.25rem;
 }
 
-.sobre-container{
+/* Definindo as propriedades dos conteúdos */
+.sobre-container {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
 
-.sobre-container div{
+.sobre-container div {
   padding-bottom: 0.25rem;
 }
 
@@ -23,33 +25,34 @@ main {
   margin: 20px 40px 5px 0px;
 }
 
-.sobre-container .exp{
+.sobre-container .exp {
   margin-left: 1.6rem;
   margin-right: 1.5rem;
 }
 
-dt{
-  color:#6665DD;
+dt {
+  color: #6665dd;
 }
 
-dt span{
+dt span {
   color: #33415c;
   font-weight: bold;
   font-size: small;
 }
 
-dd{
-  color:#33415c;
+dd {
+  color: #33415c;
   padding-bottom: 1.25rem;
 }
 
+/* Ajustes para responsividade dos elementos */
 @media all and (max-width: 1150px) {
   main {
     -webkit-flex-flow: column wrap;
     flex-flow: column wrap;
     align-content: center;
-    margin-top: 420px;
-    margin-bottom: 120px;
+    margin-top: 26.25rem;
+    margin-bottom: 7.5rem;
     padding: 0;
   }
 }

@@ -1,18 +1,20 @@
+/* Definindo as propriedades do elemento principal */
 main {
   flex: 1;
   display: flex;
   align-items: center;
   width: 100%;
-  padding: 200px;
-  max-width: 1380px;
+  padding: 12.5rem;
+  max-width: 86.25rem;
 }
 
+/* Definindo as propriedades dos conteúdos */
 .main-info {
   width: 100%;
-  max-width: 600px;
+  max-width: 37.5rem;
 }
 
-.main-info p{
+.main-info p {
   color: #33415c;
   font-size: 1.25rem;
   line-height: 1.4;
@@ -20,8 +22,8 @@ main {
 }
 
 img {
-  width: 500px;
-  height: 500px;
+  width: 31.25rem;
+  height: 31.25rem;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -31,7 +33,7 @@ p span {
   font-weight: 600;
 }
 
-h1{
+h1 {
   margin: 0;
 }
 
@@ -39,6 +41,7 @@ h1 span {
   color: #473bf0;
 }
 
+/* Ajustes para responsividade dos elementos */
 @media all and (max-width: 1150px) {
   h1,
   p {
@@ -48,12 +51,12 @@ h1 span {
     -webkit-flex-flow: column wrap;
     flex-flow: column wrap;
     align-content: center;
-    margin-top: 420px;
-    margin-bottom: 120px;
+    margin-top: 26.25rem;
+    margin-bottom: 7.5rem;
     padding: 0;
   }
   img {
-    width: 350px;
-    height: 350px;
+    width: 21.875rem;
+    height: 21.875rem;
   }
 }
