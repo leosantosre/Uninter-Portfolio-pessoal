@@ -37,6 +37,18 @@
   z-index: inherit;
 }
 
+.menu-icon {
+  display: none;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+#menu-toggle:checked ~ .menu {
+  transform: scale(1, 1);
+}
+
 @media all and (max-width: 1150px) {
   header {
     position: inherit;
