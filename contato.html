@@ -1,28 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="styles/global.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/contato.css">
-    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-</head>
-<body class=" body-container">
-    <header class="container header"><a class="logo" href="/">Leonardo Santos</a>
-       <nav class="header-nav container">
-            <a class="nav-link" href="/sobre.html">Sobre mim</a>
-            <a class="nav-link" href="/formacao.html">Formação</a>
-            <a class="nav-link" href="/portfolio.html">Portfólio</a>
-            <a class="nav-link" href="/contato.html">Contato</a>
-       </nav>
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/contato.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body-container">
+    <header class="container header">
+      <a class="logo" href="/">Leonardo Santos</a>
+      <nav class="header-nav container">
+        <a class="nav-link" href="/sobre.html">Sobre mim</a>
+        <a class="nav-link" href="/formacao.html">Formação</a>
+        <a class="nav-link" href="/portfolio.html">Portfólio</a>
+        <a class="nav-link" href="/contato.html">Contato</a>
+      </nav>
     </header>
-        <main>
-            <div class="main-info">
-        </main>
+    <main>
+      <form class="form" action="" nome="contato" netlify>
+        <h1>Envie uma mensagem!</h1>
+        <label for="name">Nome</label>
+        <input type="text" name="name" placeholder="Digite seu nome" />
+
+        <label for="email">E-mail</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Digite seu e-mail"
+          required
+        />
+
+        <label for="msg">Mensagem</label>
+        <textarea
+          name="msg"
+          rows="5"
+          cols="50"
+          placeholder="Digite sua mensagem"
+          required
+        ></textarea>
+
+        <button type="submit" value="Enviar">Enviar</button>
+      </form>
+    </main>
     <footer class="footer-container">
-        <P>Portifólio Uninter</P>
+      <p>Portifólio Uninter</p>
     </footer>
-</body>
+  </body>
 </html>

@@ -2,20 +2,29 @@ main {
   flex: 1;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
-  padding: 200px;
+  padding: 130px;
   max-width: 1380px;
 }
 
-.main-info {
-  width: 100%;
-  max-width: 600px;
+.portfolio-container {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
-.main-info {
-  color: #acadbc;
-  margin: 20px 40px 20px 0px;
+.portfolio-container .item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-container div p {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: #33415c;
+  margin: 20px 0px 20px 0px;
 }
 
 @media all and (max-width: 1150px) {
@@ -26,5 +35,8 @@ main {
     margin-top: 420px;
     margin-bottom: 120px;
     padding: 0;
+  }
+  iframe{
+    width: 90%;
   }
 }

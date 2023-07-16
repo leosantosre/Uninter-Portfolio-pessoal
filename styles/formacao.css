@@ -8,14 +8,58 @@ main {
   max-width: 1380px;
 }
 
-.main-info {
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  max-width: 600px;
+  padding: 130px;
+  max-width: 1380px;
 }
 
-.main-info {
-  color: #acadbc;
-  margin: 20px 40px 20px 0px;
+.sobre-container{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.sobre-container div{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.25rem;
+}
+
+.sobre-container div p {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: #33415c;
+  margin: 20px 40px 5px 0px;
+}
+
+dt{
+  color:#6665DD;
+  font-weight: bold;
+  font-size: large;
+  padding-bottom: 12px;
+  border-bottom: 1px solid;
+}
+
+dt span{
+  color: #33415c;
+  font-weight: bold;
+  font-size: small;
+}
+
+dd{
+  color:#33415c;
+  padding-top: 1rem;
+  padding-bottom: 1.25rem;
+}
+
+dd span{
+  color: #33415c;
+  font-weight: bold;
+  font-size:medium;
 }
 
 @media all and (max-width: 1150px) {
